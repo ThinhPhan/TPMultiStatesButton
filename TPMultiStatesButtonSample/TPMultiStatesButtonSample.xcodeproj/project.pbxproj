@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7A8670A198FDF6F0098496C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A86709198FDF6F0098496C /* Foundation.framework */; };
+		F7A8670C198FDF6F0098496C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8670B198FDF6F0098496C /* CoreGraphics.framework */; };
+		F7A8670E198FDF6F0098496C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8670D198FDF6F0098496C /* UIKit.framework */; };
+		F7A86714198FDF6F0098496C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7A86712198FDF6F0098496C /* InfoPlist.strings */; };
+		F7A86716198FDF6F0098496C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A86715198FDF6F0098496C /* main.m */; };
+		F7A8671A198FDF6F0098496C /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A86719198FDF6F0098496C /* TPAppDelegate.m */; };
+		F7A8671D198FDF6F0098496C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A8671B198FDF6F0098496C /* Main.storyboard */; };
+		F7A86720198FDF6F0098496C /* TPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8671F198FDF6F0098496C /* TPViewController.m */; };
+		F7A86722198FDF6F0098496C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A86721198FDF6F0098496C /* Images.xcassets */; };
+		F7A86729198FDF6F0098496C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A86728198FDF6F0098496C /* XCTest.framework */; };
+		F7A8672A198FDF6F0098496C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A86709198FDF6F0098496C /* Foundation.framework */; };
+		F7A8672B198FDF6F0098496C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8670D198FDF6F0098496C /* UIKit.framework */; };
+		F7A86733198FDF6F0098496C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7A86731198FDF6F0098496C /* InfoPlist.strings */; };
+		F7A86735198FDF6F0098496C /* TPMultiStatesButtonSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A86734198FDF6F0098496C /* TPMultiStatesButtonSampleTests.m */; };
+		F7A86741198FE0700098496C /* TPMultiStatesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A86740198FE0700098496C /* TPMultiStatesButton.m */; };
+		F7A86744198FE9F90098496C /* xcode-build-bump.sh in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A86743198FE9F90098496C /* xcode-build-bump.sh */; };
+		F7A86746198FEA260098496C /* xcode-version-bump.sh in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A86745198FEA260098496C /* xcode-version-bump.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7A8672C198FDF6F0098496C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A866FE198FDF6F0098496C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A86705198FDF6F0098496C;
+			remoteInfo = TPMultiStatesButtonSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7A86706198FDF6F0098496C /* TPMultiStatesButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPMultiStatesButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A86709198FDF6F0098496C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7A8670B198FDF6F0098496C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7A8670D198FDF6F0098496C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7A86711198FDF6F0098496C /* TPMultiStatesButtonSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPMultiStatesButtonSample-Info.plist"; sourceTree = "<group>"; };
+		F7A86713198FDF6F0098496C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7A86715198FDF6F0098496C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7A86717198FDF6F0098496C /* TPMultiStatesButtonSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPMultiStatesButtonSample-Prefix.pch"; sourceTree = "<group>"; };
+		F7A86718198FDF6F0098496C /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		F7A86719198FDF6F0098496C /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		F7A8671C198FDF6F0098496C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A8671E198FDF6F0098496C /* TPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPViewController.h; sourceTree = "<group>"; };
+		F7A8671F198FDF6F0098496C /* TPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPViewController.m; sourceTree = "<group>"; };
+		F7A86721198FDF6F0098496C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7A86727198FDF6F0098496C /* TPMultiStatesButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPMultiStatesButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A86728198FDF6F0098496C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7A86730198FDF6F0098496C /* TPMultiStatesButtonSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPMultiStatesButtonSampleTests-Info.plist"; sourceTree = "<group>"; };
+		F7A86732198FDF6F0098496C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7A86734198FDF6F0098496C /* TPMultiStatesButtonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMultiStatesButtonSampleTests.m; sourceTree = "<group>"; };
+		F7A8673F198FE0700098496C /* TPMultiStatesButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMultiStatesButton.h; sourceTree = "<group>"; };
+		F7A86740198FE0700098496C /* TPMultiStatesButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMultiStatesButton.m; sourceTree = "<group>"; };
+		F7A86743198FE9F90098496C /* xcode-build-bump.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "xcode-build-bump.sh"; path = "../../../../Downloads/gist3172554/xcode-build-bump.sh"; sourceTree = "<group>"; };
+		F7A86745198FEA260098496C /* xcode-version-bump.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "xcode-version-bump.sh"; path = "../../../../Downloads/gist3172554/xcode-version-bump.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A86703198FDF6F0098496C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A8670C198FDF6F0098496C /* CoreGraphics.framework in Frameworks */,
+				F7A8670E198FDF6F0098496C /* UIKit.framework in Frameworks */,
+				F7A8670A198FDF6F0098496C /* Foundation.framework in Frameworks */,
+				F7A86744198FE9F90098496C /* xcode-build-bump.sh in Frameworks */,
+				F7A86746198FEA260098496C /* xcode-version-bump.sh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A86724198FDF6F0098496C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A86729198FDF6F0098496C /* XCTest.framework in Frameworks */,
+				F7A8672B198FDF6F0098496C /* UIKit.framework in Frameworks */,
+				F7A8672A198FDF6F0098496C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7A866FD198FDF6F0098496C = {
+			isa = PBXGroup;
+			children = (
+				F7A8673E198FE03F0098496C /* TPMultiStatesButton */,
+				F7A8670F198FDF6F0098496C /* TPMultiStatesButtonSample */,
+				F7A8672E198FDF6F0098496C /* TPMultiStatesButtonSampleTests */,
+				F7A86708198FDF6F0098496C /* Frameworks */,
+				F7A86707198FDF6F0098496C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A86707198FDF6F0098496C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86706198FDF6F0098496C /* TPMultiStatesButtonSample.app */,
+				F7A86727198FDF6F0098496C /* TPMultiStatesButtonSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A86708198FDF6F0098496C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86745198FEA260098496C /* xcode-version-bump.sh */,
+				F7A86743198FE9F90098496C /* xcode-build-bump.sh */,
+				F7A86709198FDF6F0098496C /* Foundation.framework */,
+				F7A8670B198FDF6F0098496C /* CoreGraphics.framework */,
+				F7A8670D198FDF6F0098496C /* UIKit.framework */,
+				F7A86728198FDF6F0098496C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A8670F198FDF6F0098496C /* TPMultiStatesButtonSample */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86718198FDF6F0098496C /* TPAppDelegate.h */,
+				F7A86719198FDF6F0098496C /* TPAppDelegate.m */,
+				F7A8671B198FDF6F0098496C /* Main.storyboard */,
+				F7A8671E198FDF6F0098496C /* TPViewController.h */,
+				F7A8671F198FDF6F0098496C /* TPViewController.m */,
+				F7A86721198FDF6F0098496C /* Images.xcassets */,
+				F7A86710198FDF6F0098496C /* Supporting Files */,
+			);
+			path = TPMultiStatesButtonSample;
+			sourceTree = "<group>";
+		};
+		F7A86710198FDF6F0098496C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86711198FDF6F0098496C /* TPMultiStatesButtonSample-Info.plist */,
+				F7A86712198FDF6F0098496C /* InfoPlist.strings */,
+				F7A86715198FDF6F0098496C /* main.m */,
+				F7A86717198FDF6F0098496C /* TPMultiStatesButtonSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7A8672E198FDF6F0098496C /* TPMultiStatesButtonSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86734198FDF6F0098496C /* TPMultiStatesButtonSampleTests.m */,
+				F7A8672F198FDF6F0098496C /* Supporting Files */,
+			);
+			path = TPMultiStatesButtonSampleTests;
+			sourceTree = "<group>";
+		};
+		F7A8672F198FDF6F0098496C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7A86730198FDF6F0098496C /* TPMultiStatesButtonSampleTests-Info.plist */,
+				F7A86731198FDF6F0098496C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7A8673E198FE03F0098496C /* TPMultiStatesButton */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8673F198FE0700098496C /* TPMultiStatesButton.h */,
+				F7A86740198FE0700098496C /* TPMultiStatesButton.m */,
+			);
+			name = TPMultiStatesButton;
+			path = ../TPMultiStatesButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A86705198FDF6F0098496C /* TPMultiStatesButtonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A86738198FDF6F0098496C /* Build configuration list for PBXNativeTarget "TPMultiStatesButtonSample" */;
+			buildPhases = (
+				F7A86702198FDF6F0098496C /* Sources */,
+				F7A86703198FDF6F0098496C /* Frameworks */,
+				F7A86704198FDF6F0098496C /* Resources */,
+				F7A86742198FE9B90098496C /* ShellScript */,
+				F7A86747198FEA3F0098496C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPMultiStatesButtonSample;
+			productName = TPMultiStatesButtonSample;
+			productReference = F7A86706198FDF6F0098496C /* TPMultiStatesButtonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7A86726198FDF6F0098496C /* TPMultiStatesButtonSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A8673B198FDF6F0098496C /* Build configuration list for PBXNativeTarget "TPMultiStatesButtonSampleTests" */;
+			buildPhases = (
+				F7A86723198FDF6F0098496C /* Sources */,
+				F7A86724198FDF6F0098496C /* Frameworks */,
+				F7A86725198FDF6F0098496C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A8672D198FDF6F0098496C /* PBXTargetDependency */,
+			);
+			name = TPMultiStatesButtonSampleTests;
+			productName = TPMultiStatesButtonSampleTests;
+			productReference = F7A86727198FDF6F0098496C /* TPMultiStatesButtonSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A866FE198FDF6F0098496C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ThinhPhan;
+				TargetAttributes = {
+					F7A86726198FDF6F0098496C = {
+						TestTargetID = F7A86705198FDF6F0098496C;
+					};
+				};
+			};
+			buildConfigurationList = F7A86701198FDF6F0098496C /* Build configuration list for PBXProject "TPMultiStatesButtonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A866FD198FDF6F0098496C;
+			productRefGroup = F7A86707198FDF6F0098496C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A86705198FDF6F0098496C /* TPMultiStatesButtonSample */,
+				F7A86726198FDF6F0098496C /* TPMultiStatesButtonSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A86704198FDF6F0098496C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A86722198FDF6F0098496C /* Images.xcassets in Resources */,
+				F7A86714198FDF6F0098496C /* InfoPlist.strings in Resources */,
+				F7A8671D198FDF6F0098496C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A86725198FDF6F0098496C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A86733198FDF6F0098496C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7A86742198FE9B90098496C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		F7A86747198FEA3F0098496C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "VERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nNEWSUBVERSION=`echo $VERSIONNUM | awk -F \".\" '{print $3}'`\nNEWSUBVERSION=$(($NEWSUBVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \".\" '{print $1 \".\" $2 \".'$NEWSUBVERSION'\" }'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A86702198FDF6F0098496C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A86720198FDF6F0098496C /* TPViewController.m in Sources */,
+				F7A8671A198FDF6F0098496C /* TPAppDelegate.m in Sources */,
+				F7A86716198FDF6F0098496C /* main.m in Sources */,
+				F7A86741198FE0700098496C /* TPMultiStatesButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A86723198FDF6F0098496C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A86735198FDF6F0098496C /* TPMultiStatesButtonSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7A8672D198FDF6F0098496C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A86705198FDF6F0098496C /* TPMultiStatesButtonSample */;
+			targetProxy = F7A8672C198FDF6F0098496C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7A86712198FDF6F0098496C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A86713198FDF6F0098496C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7A8671B198FDF6F0098496C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A8671C198FDF6F0098496C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7A86731198FDF6F0098496C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A86732198FDF6F0098496C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A86736198FDF6F0098496C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7A86737198FDF6F0098496C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A86739198FDF6F0098496C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7A8673A198FDF6F0098496C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7A8673C198FDF6F0098496C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPMultiStatesButtonSample.app/TPMultiStatesButtonSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TPMultiStatesButtonSampleTests/TPMultiStatesButtonSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7A8673D198FDF6F0098496C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPMultiStatesButtonSample.app/TPMultiStatesButtonSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPMultiStatesButtonSample/TPMultiStatesButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "TPMultiStatesButtonSampleTests/TPMultiStatesButtonSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A86701198FDF6F0098496C /* Build configuration list for PBXProject "TPMultiStatesButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A86736198FDF6F0098496C /* Debug */,
+				F7A86737198FDF6F0098496C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A86738198FDF6F0098496C /* Build configuration list for PBXNativeTarget "TPMultiStatesButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A86739198FDF6F0098496C /* Debug */,
+				F7A8673A198FDF6F0098496C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A8673B198FDF6F0098496C /* Build configuration list for PBXNativeTarget "TPMultiStatesButtonSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A8673C198FDF6F0098496C /* Debug */,
+				F7A8673D198FDF6F0098496C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A866FE198FDF6F0098496C /* Project object */;
+}
